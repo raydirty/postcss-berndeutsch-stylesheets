@@ -1,0 +1,22 @@
+{
+  "name": "postcss-berndeutsch-stylesheets",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "jest test/index.spec.js",
+    "prettier:write": "npx prettier . --write",
+    "prettier:check": "npx prettier . --check",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "jest": "^29.7.0",
+    "lint-staged": "^14.0.1",
+    "prettier": "3.0.3"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
