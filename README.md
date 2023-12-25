@@ -1,6 +1,6 @@
 # PostCSS Berndeutsch Style Sheets
 
-![postcss-logo.png](docs/postcss-logo.png)
+![postcss-logo.png](https://github.com/raydirty/postcss-berndeutsch-stylesheets/blob/main/docs/postcss-logo.png)
 
 ## Installation
 
