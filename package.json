@@ -1,6 +1,10 @@
 {
   "name": "postcss-berndeutsch-stylesheets",
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raydirty/postcss-berndeutsch-stylesheets"
+  },
   "scripts": {
     "test": "jest test/index.spec.js",
     "prettier:write": "npx prettier . --write",
@@ -18,5 +22,9 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/raydirty/postcss-berndeutsch-stylesheets/issues"
+  },
+  "homepage": "https://github.com/raydirty/postcss-berndeutsch-stylesheets"
 }

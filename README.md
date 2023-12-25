@@ -4,8 +4,8 @@
 
 ## Installation
 
-TODO
+`npm install postcss-berndeutsch-stylesheets`
 
 ## Usage
 
-TODO
+See https://github.com/postcss/postcss#usage
