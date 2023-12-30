@@ -1,10 +1,20 @@
 {
   "name": "postcss-berndeutsch-stylesheets",
   "version": "0.0.0",
+  "license": "MIT",
+  "description": "PostCSS plugin for writing Berndeutsch Stylesheets",
   "repository": {
     "type": "git",
     "url": "https://github.com/raydirty/postcss-berndeutsch-stylesheets"
   },
+  "keywords": [
+    "berndeutsch",
+    "swissgerman",
+    "postcss",
+    "postcss-plugin",
+    "css",
+    "stylesheet"
+  ],
   "scripts": {
     "test": "jest test/index.spec.js",
     "prettier:write": "npx prettier . --write",
